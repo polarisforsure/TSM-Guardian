@@ -9,25 +9,27 @@ This script uses the uncaughtException event to detect if the script has crashed
 </br>
 Here are the steps for setting up and using the node.js script to monitor and restart IBM Tivoli Storage Manager:
 </br>
-1. Install node.js on your system if it is not already installed. You can download the latest version of node.js from the official website (https://nodejs.org/) and follow the instructions for installation.
+
+Step 1: Install node.js on your system if it is not already installed. You can download the latest version of node.js from the official website (https://nodejs.org/) and follow the instructions for installation.
 </br>
-2.A `git clone https://github.com/polarisforsure/TSM-Guardian`
+
+Step 2.A `git clone https://github.com/polarisforsure/TSM-Guardian`
 </br>
 
 OR
 </br>
 
-2.B Create a new file named tsm-guardian.js and copy the code from this repository. This is the script that will monitor and restart TSM_SCHED.
+Step 2.B: Create a new file named tsm-guardian.js and copy the code from this repository. This is the script that will monitor and restart TSM_SCHED.
 </br>
 
-3. Open a terminal or command prompt in the same directory as 'tsm-guardian.js'. 
+Step 3: Open a terminal or command prompt in the same directory as 'tsm-guardian.js'. 
 </br>
 
-4. Run the following command to install the necessary dependencies for the script: 
+Step 4: Run the following command to install the necessary dependencies for the script: 
 `npm install child_process`
 </br>
 
-5. Once the dependencies are installed, you can start the script by running the following command:
+Step 5: Once the dependencies are installed, you can start the script by running the following command:
 `node tsm-guardian.js`
 </br>
 
