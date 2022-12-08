@@ -13,18 +13,24 @@ Here are the steps for setting up and using the node.js script to monitor and re
 </br>
 2.A `git clone https://github.com/polarisforsure/TSM-Guardian`
 </br>
+
 OR
 </br>
+
 2.B Create a new file named tsm-guardian.js and copy the code from this repository. This is the script that will monitor and restart TSM_SCHED.
 </br>
+
 3. Open a terminal or command prompt in the same directory as 'tsm-guardian.js'. 
 </br>
+
 4. Run the following command to install the necessary dependencies for the script: 
 `npm install child_process`
 </br>
+
 5. Once the dependencies are installed, you can start the script by running the following command:
 `node tsm-guardian.js`
 </br>
+
 The script will now start running and will check the status of TSM_SCHED every 5 seconds. If TSM_SCHED is not running, it will attempt to restart it.
 If the script crashes for any reason, it will automatically restart thanks to the uncaughtException event handler that we added to the script.
 To stop the script, you can use CTRL+C in the terminal or command prompt where it is running.
