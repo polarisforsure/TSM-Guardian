@@ -1,4 +1,4 @@
-# TSM-Guardian (Updated version coming soon)
+# TSM-Guardian
 ![tsmpng](https://user-images.githubusercontent.com/43050319/206471871-aa01ee3b-7132-43c5-936c-b71af9d9d75d.png)
 
 Who doesn't hate incidents where TSM fails and you need to jump in and simply restart TSM_SCHED?
